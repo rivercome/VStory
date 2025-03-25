@@ -46,7 +46,7 @@ import { AreaChart } from './demos/infographic/source-of-new-contacts-area-chart
 import { MarketingWordcloud } from './demos/infographic/marking-wordcloud';
 import { NoStackArea } from './demos/infographic/market-share';
 import { Top10Podcast } from './demos/infographic/top10_podcast';
-
+import { RoseStory } from './demos/infographic/rose';
 // VchartEditor Runtime
 import { LineChartArrange } from './demos/arrange/LineChart';
 import { PieChart } from './demos/arrange/PieChart';
@@ -321,6 +321,10 @@ const App = () => {
         {
           name: 'Top 10 Podcast Publishers in US',
           component: Top10Podcast
+        },
+        {
+          name: 'RoseStory',
+          component: RoseStory
         }
       ]
     },
